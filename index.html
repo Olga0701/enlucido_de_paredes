@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./src/css/bootstrap.css">
+	<link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+	<main class="main">
+		<div class="container">
+
+			<div class="header">
+				<div class="row align-items-center">
+
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-12">
+						<div class="header-logo">
+							<img src="./src/img/logo1.png" alt="logo">
+						</div>
+					</div>
+
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+						<div class="header-nombre">
+							<strong>Gipsolit</strong><span>Enlucido de paredes</span>
+						</div>
+					</div>
+
+					<div class="col-xl-2 offset-xl-4 col-lg-3 offset-lg-2 col-md-3 offset-0 text-end">
+						<a class="header-phone" href="#">+34 000 000 00</a>
+					</div>
+
+					<div class="col-xl-3 col-lg-3 col-md-4 text-end">
+						<button class="button header-button popup-btn">Obtener una consulta</button>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="main-content">
+				<div class="row">
+					<div class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-3">
+						<h1 class="main-title">Enlucido de paredes automatizado</h1>
+						<p class="main-subtitle">Paredes perfectamente lisas <br> en muy poco tiempo</p>
+						<span class="main-precio">El coste de la obra <br> es desde <strong>10</strong> euros/m <sup>2</sup></span>
+						<p class="main-tigger">Pago una vez finalizado el trabajo!</p>
+					</div>
+
+					<div class="col-xl-4 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+						<div class="forms">
+							<form class="form" action="#">
+								<p class="form-title">Para calcular el coste exacto, <br> solicite una <strong>visita de
+										medición</strong></p>
+								<label class="form-label" for="#">Su nombre</label>
+								<input class="form-input" type="text">
+
+								<label class="form-label" for="#">Número de teléfono</label>
+								<input class="form-input" type="text">
+								<button class="button form-btn">Dejar una solicitud</button>
+								<p class="main-form-footer">Venimos el día que nos contactes</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<section class="features">
+		<div class="container">
+			<div class="section-header">
+				<h2>Ventajas de trabajar con nosotros</h2>
+			</div>
+
+
+			<div class="features-slider">
+
+				<div class="features-block">
+					<div class="features-img">
+						<picture>
+							<source srcset="./src/img/feature/coin.svg" type="image/">
+							<img src="./src/img/feature/coin.png" alt="Pagar al finalizar el trabajo">
+						</picture>
+					</div>
+					<h3 class="features-block-title">Pagar al finalizar el trabajo</h3>
+					<p class="features-block-subtitle">Sólo paga una vez finalizado el trabajo. <br> Sin recargos ocultos ni pagos
+						intermedios</p>
+				</div>
+
+				<div class="features-block">
+					<div class="features-img">
+						<picture>
+							<source srcset="./src/img/feature/document.svg" type="image/">
+							<img src="./src/img/feature/document.png" alt="Firmamos un contrato">
+						</picture>
+					</div>
+					<h3 class="features-block-title">Firmamos un contrato</h3>
+					<p class="features-block-subtitle">Antes de empezar a trabajar firmamos un contrato de persona jurídica. <br>
+						Puede estar seguro de que se
+						cumplirán todas las obligaciones</p>
+				</div>
+
+				<div class="features-block">
+					<div class="features-img">
+						<picture>
+							<source srcset="./src/img/feature/clock.svg" type="image/">
+							<img src="./src/img/feature/clock.png" alt="Finalización en las fechas indicadas">
+						</picture>
+					</div>
+					<h3 class="features-block-title">Terminemos el tiempo</h3>
+					<p class="features-block-subtitle">Trabajamos estrictamente según los plazos establecidos, que se detallan en
+						el contrato. Si no finalizamos
+						a tiempo, pagas menos</p>
+				</div>
+
+				<div class="features-block">
+					<div class="features-img">
+						<picture>
+							<source srcset="./src/img/feature/piggy.svg" type="image/">
+							<img src="./src/img/feature/piggy.png" alt="Ahorrar en materiales">
+						</picture>
+					</div>
+					<h3 class="features-block-title">Ahorrar en materiales</h3>
+					<p class="features-block-subtitle">Somos una división estructural de una empresa proveedora de mezclas para la
+						construcción y le ofrecemos
+						los precios más favorables</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="price">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 offset-xl-4 col-lg-12 offset-lg-0">
+					<div class="section-header section-header-light">
+						<h2>Precios</h2>
+						<p>Elige la opción que más te convenga</p>
+					</div>
+
+				</div>
+				<div class="col-xl-4 text-end">
+					<button class="button price-button-header" data-toggle="modal">Calcular el coste exacto</button>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-xl-4 offset-xl-0 col-lg-8 offset-lg-2">
+					<div class="price-block">
+						<h4 class="price-title">Enlucido con su material</h4>
+						<div class="price-img"><img src="./src/img/price/1.jpg" alt="Enlucido bajo papel pintado"></div>
+						<small class="price-subtitle">desde 30 euros/m <sup>2</sup></small>
+						<ul class="price-list">
+							<li>Haremos el trabajo</li>
+							<li>Vamos a limpiar</li>
+						</ul>
+						<button class="button price-button">Pedido</button>
+					</div>
+				</div>
+
+				<div class="col-xl-4 offset-xl-0 col-lg-8 offset-lg-2">
+					<div class="price-block">
+						<h4 class="price-title">Enlucido bajo masilla</h4>
+						<div class="price-img"><img src="./src/img/price/2.jpg" alt="Enlucido bajo papel pintado"></div>
+						<small class="price-subtitle">desde 53 euros/m <sup>2</sup></small>
+						<ul class="price-list">
+							<li>Traeremos los materiales y levantaremos</li>
+							<li>Haremos el trabajo</li>
+							<li>Vamos a limpiar</li>
+							<li>Dos años de garantía</li>
+
+						</ul>
+						<button class="button price-button">Pedido</button>
+					</div>
+				</div>
+
+				<div class="col-xl-4 offset-xl-0 col-lg-8 offset-lg-2">
+					<div class="price-block">
+						<h4 class="price-title">Enlucido bajo papel pintado</h4>
+						<div class="price-img"><img src="./src/img/price/3.jpg" alt="Enlucido bajo papel pintado"></div>
+						<small class="price-subtitle">desde 56 euros/m <sup>2</sup></small>
+						<ul class="price-list">
+							<li>Traeremos los materiales y levantaremos</li>
+							<li>Haremos el trabajo</li>
+							<li>Vamos a limpiar</li>
+							<li>Dos años de garantía</li>
+							<li>Puedes empapelar de inmediato</li>
+						</ul>
+						<button class="button price-button">Pedido</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="feedback">
+		<div class="container">
+			<div class="section-header">
+				<h2>Reseñas</h2>
+			</div>
+			<div class="feedback-slider">
+
+				<div class="feedback-slider_items">
+					<div class="row">
+
+						<div class="col-xl-6">
+							<div class="fotorama" data-width="100%" data-nav="thumbs">
+								<img src="./src/img/feedback/1.jpg">
+								<img src="./src/img/feedback/2.jpeg">
+								<img src="./src/img/feedback/3.jpg">
+								<img src="./src/img/feedback/4.jpg">
+								<img src="./src/img/feedback/5.jpg">
+								<img src="./src/img/feedback/6.jpg">
+								<img src="./src/img/feedback/7.jpg">
+							</div>
+						</div>
+
+						<div class="col-xl-6">
+							<div class="feedback-datos">
+								<p>Edificio: <strong>Madrid</strong> </p>
+								<p>Área: <strong>357 m <sup>2</sup></strong> </p>
+								<p>Realizado en: <strong>10 días</strong> </p>
+								<p>Precio: <strong>55 euros por m <sup>2</sup></strong> </p>
+								<p>Características: <strong>las diferencias de desnivel de las paredes alcanzan hasta 6 cm</strong> </p>
+							</div>
+							<div class="feedback-description">
+								<div class="feedback-description-img">
+									<img src="./src/img/feedback/feedback.jpeg" alt="logo_feedback">
+								</div>
+
+								<div class="feedback-description-client">
+									<small>Cliente</small>
+									<strong>Nahimo Rafael</strong>
+								</div>
+							</div>
+							<div class="feedback-description-title">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quaerat autem necessitatibus
+									numquam perspiciatis? Nobis aut ab corrupti minus veritatis numquam laboriosam quia illo nulla nemo
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="feedback-slider_items">
+					<div class="row">
+
+						<div class="col-xl-6">
+							<div class="fotorama" data-width="100%" data-nav="thumbs">
+								<img src="./src/img/feedback/1.jpg">
+								<img src="./src/img/feedback/2.jpeg">
+								<img src="./src/img/feedback/3.jpg">
+								<img src="./src/img/feedback/4.jpg">
+								<img src="./src/img/feedback/5.jpg">
+								<img src="./src/img/feedback/6.jpg">
+								<img src="./src/img/feedback/7.jpg">
+							</div>
+						</div>
+
+						<div class="col-xl-6">
+							<div class="feedback-datos">
+								<p>Edificio: <strong>Madrid</strong> </p>
+								<p>Área: <strong>357 m <sup>2</sup></strong> </p>
+								<p>Realizado en: <strong>10 días</strong> </p>
+								<p>Precio: <strong>55 euros por m <sup>2</sup></strong> </p>
+								<p>Características: <strong>las diferencias de desnivel de las paredes alcanzan hasta 6 cm</strong> </p>
+							</div>
+							<div class="feedback-description">
+								<div class="feedback-description-img">
+									<img src="./src/img/feedback/feedback.jpeg" alt="logo_feedback">
+								</div>
+
+								<div class="feedback-description-client">
+									<small>Cliente</small>
+									<strong>Nahimo Rafael</strong>
+								</div>
+							</div>
+							<div class="feedback-description-title">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quaerat autem necessitatibus
+									numquam perspiciatis? Nobis aut ab corrupti minus veritatis numquam laboriosam quia illo nulla nemo
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="feedback-slider_items">
+					<div class="row">
+
+						<div class="col-xl-6">
+							<div class="fotorama" data-width="100%" data-nav="thumbs">
+								<img src="./src/img/feedback/1.jpg">
+								<img src="./src/img/feedback/2.jpeg">
+								<img src="./src/img/feedback/3.jpg">
+								<img src="./src/img/feedback/4.jpg">
+								<img src="./src/img/feedback/5.jpg">
+								<img src="./src/img/feedback/6.jpg">
+								<img src="./src/img/feedback/7.jpg">
+							</div>
+						</div>
+
+						<div class="col-xl-6">
+							<div class="feedback-datos">
+								<p>Edificio: <strong>Madrid</strong> </p>
+								<p>Área: <strong>357 m <sup>2</sup></strong> </p>
+								<p>Realizado en: <strong>10 días</strong> </p>
+								<p>Precio: <strong>55 euros por m <sup>2</sup></strong> </p>
+								<p>Características: <strong>las diferencias de desnivel de las paredes alcanzan hasta 6 cm</strong> </p>
+							</div>
+							<div class="feedback-description">
+								<div class="feedback-description-img">
+									<img src="./src/img/feedback/feedback.jpeg" alt="logo_feedback">
+								</div>
+
+								<div class="feedback-description-client">
+									<small>Cliente</small>
+									<strong>Nahimo Rafael</strong>
+								</div>
+							</div>
+							<div class="feedback-description-title">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quaerat autem necessitatibus
+									numquam perspiciatis? Nobis aut ab corrupti minus veritatis numquam laboriosam quia illo nulla nemo
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="feedback-forms">
+						<form class="form" action="#">
+							<h3>¿Quieres lo mismo? Deja tus datos de contacto</h3>
+							<div class="row">
+								<div class="col-xl-6">
+									<label class="feedback-forms-lable" for="#">Su nombre</label>
+									<input class="form-input feedback-forms-input" type="text">
+								</div>
+								<div class="col-xl-6">
+									<label class="feedback-forms-lable" for="#">Número de teléfono</label>
+									<input class="form-input feedback-forms-input" type="text">
+								</div>
+							</div>
+							<button class="button form-btn feedback-forms-btn">Dejar una solicitud</button>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<img class="mano" src="./src/img/feedback/feedback_mano.png" alt="mano">
+	</section>
+	<section class="scheme">
+		<div class="container">
+			<div class="section-header">
+				<h2>Esquemas de trabajo</h2>
+				<p>Fases del trabajo en tu proyecto</p>
+			</div>
+			<div class="scheme-block">
+				<div class="row">
+					<div class="col-xl-3 offset-xl-1 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+						<img src="./src/img/scheme/1.png" alt="">
+						<h3>Solicitud</h3>
+						<p>Deje un formulario de solicitud en línea o llame</p>
+					</div>
+					<div class="col-xl-3 offset-xl-1 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+						<img src="./src/img/scheme/2.png" alt="">
+						<h3>Llegada del maestro</h3>
+						<p>En el plazo de 1 día laborable, un especialista se desplazará a su domicilio para tomar medidas y
+							calcular el coste exacto del trabajo.</p>
+					</div>
+					<div class="col-xl-3 offset-xl-1 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+						<img src="./src/img/scheme/3.png" alt="">
+						<h3>Redacción de contratos</h3>
+						<p>Preparamos el contrato y lo acordamos con usted</p>
+					</div>
+
+
+
+					<div class="col-xl-3 offset-xl-1 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+						<img src="./src/img/scheme/4.png" alt="">
+						<h3>Inicio de las obras</h3>
+						<p>Еntregamos los materiales, el equipo, firmamos el contrato y empezamos a trabajar</p>
+					</div>
+					<div class="col-xl-3 offset-xl-1 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+						<img src="./src/img/scheme/5.png" alt="">
+						<h3>Finalización de las obras</h3>
+						<p>Una vez terminado el trabajo, compruebas la calidad y firmas el certificado de entrega, realizas el pago.
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="all-inclusive">
+		<div class="container">
+			<div class="section-header all-inclusive-header">
+				<h2>Todo incluido al 100%</h2>
+				<p>Al realizar obras con nuestros materiales, el coste de las obras incluye</p>
+			</div>
+			<div class="row">
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">1.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Material:</h3>
+							<p>enlucido, imprimación, malla para juntas</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">2.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Entrega de equipos y materiales en la obra</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">3.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Preparación de la superficie</h3>
+							<p>(limpieza, imprimación)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">4.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Instalación de balizas</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">5.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Enlucido de superficies</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">6.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Retirada de balizas</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">7.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Superficie lustrosa</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 offset-xl-0 col-lg-6 offset-lg-0 col-md-6 offset-md-3">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-0">
+							<span class="circle-border">
+								<span class="circle">8.</span>
+							</span>
+						</div>
+						<div class="flex-grow-1 ms-3">
+							<h3>Limpieza y recogida de basuras</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="problems">
+		<div class="container">
+			<div class="section-header">
+				<h2>Vamos a disipar todos sus temores</h2>
+			</div>
+			<div class="row">
+				<div class="col-xl-5">
+					<div class="problems-list problems-bad">
+						<h4>Cuál puede ser el problema:</h4>
+						<ul>
+							<li>Las paredes y las esquinas serán irregulares</li>
+							<li>La renovación durará muchos meses</li>
+							<li>Dificultades con la entrega y descarga de materiales</li>
+							<li>Quedarán escombros y polvo tras las obras</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-5 offset-xl-2">
+					<div class="problems-list problems-good">
+						<h4>Nuestra solución:</h4>
+						<ul>
+							<li>Especialistas altamente cualificados + al menos 5 años de experiencia = superficies perfectamente
+								planas</li>
+							<li>Respetamos los plazos especificados en el contrato. Para un piso de 135 m2 tardamos de 3 a 5 días</li>
+							<li>La entrega del material y el levantamiento son gratuitos</li>
+							<li>Limpiamos y retiramos la basura después del trabajo</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<img class="problems-woomen" src="./src/img/problems/problems-woomen.png" alt="woomen">
+		</div>
+	</section>
+	<section class="materials">
+		<div class="container">
+			<div class="section-header">
+				<h2>Materiales</h2>
+				<p>Trabajamos únicamente con materiales de calidad y de eficacia probada de los siguientes fabricantes:</p>
+			</div>
+
+			<div class="features-slider">
+
+				<div class="features-block">
+					<div class="materials-img">
+						<picture>
+							<img src="./src/img/materials/knauf.png" alt="knauf">
+						</picture>
+					</div>
+					<div class="materiasls-description">
+						<h3 class="features-block-title">Knauf</h3>
+						<p class="features-block-subtitle">MP-75 <strong>24</strong> euros/saco</p>
+					</div>
+					.
+					<p class="materials-link"><a href="#">Certificado</a></p>
+
+
+				</div>
+
+				<div class="features-block">
+					<div class="materials-img">
+						<picture>
+							<img src="./src/img/materials/volma.png" alt="Volma">
+						</picture>
+					</div>
+					<div class="materiasls-description">
+						<h3 class="features-block-title">Volma</h3>
+						<p class="features-block-subtitle">Aqua capa<strong>24</strong> euros/saco <br> Yeso activo
+							<strong>24</strong> euros/saco
+						</p>
+					</div>
+					<p class="materials-link"><a href="#">Certificado</a></p>
+				</div>
+
+				<div class="features-block">
+					<div class="materials-img">
+						<picture>
+							<img src="./src/img/materials/forman.png" alt="Forman">
+						</picture>
+					</div>
+					<div class="materiasls-description">
+						<h3 class="features-block-title">Forman</h3>
+						<p class="features-block-subtitle">Aqua capa<strong>24</strong> euros/saco <br> Yeso activo
+							<strong>24</strong> euros/saco
+						</p>
+					</div>
+					<p class="materials-link"><a href="#">Certificado</a></p>
+				</div>
+
+				<div class="features-block">
+					<div class="materials-img">
+						<picture>
+							<img src="./src/img/materials/ceresit.png" alt="Ceresit">
+						</picture>
+					</div>
+					<div class="materiasls-description">
+						<h3 class="features-block-title">Ceresit</h3>
+						<p class="features-block-subtitle">Aqua capa<strong>24</strong> euros/saco <br> Yeso activo
+							<strong>24</strong> euros/saco
+						</p>
+					</div>
+					<p class="materials-link"><a href="#">Certificado</a></p>
+				</div>
+
+			</div>
+			<p class="materials-footer">Puede adquirir materiales a precios de mayorista en el sitio web o en el teléfono
+				<strong>+3 000 000 00 00</strong>
+			</p>
+		</div>
+	</section>
+	<section class="tour">
+		<div class="container">
+			<div class="main-content">
+				<div class="row">
+					<div class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-3">
+						<h2 class="main-title">Vea cómo trabajamos</h2>
+						<p class="main-subtitle">¿Quiere convencerse de la profesionalidad de nuestros empleados?</p>
+						<p class="main-subtitle"> Puede hacerlo desplazándose a una de nuestras obras y observando los trabajos en
+							curso. Verá el equipo, los materiales y la calidad de la mano de obra.</p>
+					</div>
+
+					<div class="col-xl-4 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+						<div class="forms">
+							<form class="form" action="#">
+								<p class="form-title">Para calcular el coste exacto, <br> solicite una <strong>visita de
+										medición</strong></p>
+								<label class="form-label" for="#">Su nombre</label>
+								<input class="form-input" type="text">
+
+								<label class="form-label" for="#">Número de teléfono</label>
+								<input class="form-input" type="text">
+								<button class="button form-btn">Dejar una solicitud</button>
+								<p class="main-form-footer">Venimos el día que nos contactes</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="upsell">
+		<div class="container">
+			<div class="section-header section-header-light">
+				<h2>Servicios adicionales</h2>
+				<p>Además del enlucido de peces, puede encargarnos los siguientes servicios</p>
+			</div>
+			<div class="row">
+
+				<div class="col-xl-4 offset-xl-0 col-lg-8 offset-lg-2">
+					<div class="price-block upsell-block">
+						<div class="price-img"><img src="./src/img/upsell/1.jpg" alt="Instalación de cableado eléctrico"></div>
+						<h4 class="price-title">Instalación de cableado eléctrico</h4>
+						<button class="button price-button">Precios</button>
+					</div>
+				</div>
+
+				<div class="col-xl-4 offset-xl-0 col-lg-8 offset-lg-2">
+					<div class="price-block upsell-block">
+						<div class="price-img"><img src="./src/img/upsell/2.jpg" alt="Solado"></div>
+						<h4 class="price-title">Solado</h4>
+						<button class="button price-button">Precios</button>
+					</div>
+				</div>
+
+				<div class="col-xl-4 offset-xl-0 col-lg-8 offset-lg-2">
+					<div class="price-block upsell-block">
+						<div class="price-img"><img src="./src/img/upsell/3.jpg" alt="Trabajos de fontanería"></div>
+						<h4 class="price-title">Trabajos de fontanería</h4>
+						<button class="button price-button">Precios</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 offset-xl-0 col-lg-8 offset-lg-2">
+					<div class="contacts-datos">
+						<h2>Contactos</h2>
+						<p>Dirección de la oficina:<br>Мадрид</p>
+						<div class="contacts-maps">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194347.4782683708!2d-3.844347150013231!3d40.43809861090755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2z0JzQsNC00YDQuNC0!5e0!3m2!1sru!2ses!4v1713471602532!5m2!1sru!2ses"
+								width="600" height="190" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<p>Número de teléfono:<br><strong class="contacts-tel">+3 000 000 00 00</strong></p>
+						<p>E-main:<br><a class="contacts-link" href="#">correo@gmail.com</a></p>
+						<p>Datos de la empresa:<br>INN 35654585 ORGH 26
+							65366</p>
+					</div>
+				</div>
+				<div class="col-xl-4 offset-xl-2 col-lg-8 offset-lg-2">
+					<div class="forms">
+						<form class="form" action="#">
+							<h4 class="contacts-form"><strong>Déjanos tus datos para ponernos en contacto contigo</strong></h4>
+
+							<label class="form-label" for="#">Su nombre</label>
+							<input class="form-input" type="text">
+
+							<label class="form-label" for="#">Número de teléfono</label>
+							<input class="form-input" type="text">
+
+							<label class="form-label" for="#">E-mail</label>
+							<input class="form-input" type="text">
+
+							<label class="form-label" for="#">Mensaje</label>
+							<textarea class="form-input contacts-mensaje" rows="5"></textarea>
+							<button class="button form-btn">Concertar una cita</button>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!--Модальные окна-->
+	<!--Модальное окно обратной связи-->
+	<div class="popup">
+		<div class="popup-container">
+			<div class="popup-content">
+				<button class="popup-close">&#x2715;</button>
+
+				<div class="forms">
+					<form class="form" action="#">
+						<h4 class="popup-header">¿Interesado?</h4>
+						<p class="popup-title">Envía tus datos de contacto</p>
+						<label class="form-label" for="#">Su nombre</label>
+						<input class="form-input" type="text">
+
+						<label class="form-label" for="#">Número de teléfono</label>
+						<input class="form-input" type="text">
+						<label class="form-label" for="#">Mensaje</label>
+						<textarea class="form-input contacts-mensaje" rows="5"></textarea>
+						<button class="button form-btn">Dejar una solicitud</button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<!--Подключаем стили слайдера-->
+	<link rel="stylesheet" href="./src/slick/slick/slick.css">
+	<link rel="stylesheet" href="./src/slick/slick/slick-theme.css">
+	<!--Подключаем скрипт слайдера-->
+	<script src="./src/slick/slick/slick.min.js"></script>
+	<!--Подключаем скрипт слайдера fotorama-->
+	<link href="./src/fotorama/fotorama.css" rel="stylesheet">
+	<script src="./src/fotorama/fotorama.js"></script>
+	<!--Инициализируем слайдер-->
+	<script>
+		$(document).ready(function () {
+			$('.popup-btn').on('click', function (event) {
+				event.preventDefault();
+				$('.popup').fadeIn();
+			});
+			$('.popup-close').on('click', function (event) {
+				event.preventDefault();
+				$('.popup').fadeOut();
+			});
+
+			$('.feedback-slider').slick({
+				prevArrow: '<button type="button" class="feedback-slider-btn feedback-prev-btn"><img src="./src/img/feedback/prevArrow.svg" alt=""></button>',
+				nextArrow: '<button type="button" class="feedback-slider-btn feedback-next-btn"><img src="./src/img/feedback/nextArrow.svg" alt=""></button>',
+			});
+
+			$('.features-slider').slick({
+				infinite: true,
+				slidesToShow: 4,
+				slidesToScroll: 4,
+				responsive: [
+					{
+						breakpoint: 1199,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2,
+							infinite: true,
+							prevArrow: '<button class="prev arrow"></button>',
+							nextArrow: '<button class="next arrow"></button>',
+						}
+					},
+					{
+						breakpoint: 767,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							prevArrow: '<button class="prev arrow"></button>',
+							nextArrow: '<button class="next arrow"></button>',
+						}
+					},
+
+				]
+			});
+		});
+	</script>
+</body>
+
+</html>
