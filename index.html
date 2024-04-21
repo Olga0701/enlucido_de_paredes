@@ -8,6 +8,7 @@
 	<title>Enlucido de paredes</title>
 	<link rel="stylesheet" href="./src/css/bootstrap.css">
 	<link rel="stylesheet" href="./src/css/style.css">
+	<link rel="stylesheet" href="./src/css/animate.css">
 </head>
 
 <body>
@@ -42,22 +43,25 @@
 			<div class="main-content">
 				<div class="row">
 					<div class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-3">
-						<h1 class="main-title">Enlucido de paredes automatizado</h1>
-						<p class="main-subtitle">Paredes perfectamente lisas <br> en muy poco tiempo</p>
-						<span class="main-precio">El coste de la obra <br> es desde <strong>10</strong> euros/m <sup>2</sup></span>
-						<p class="main-tigger">Pago una vez finalizado el trabajo!</p>
+						<div class="WOW animate__animated animate__backInLeft">
+							<h1 class="main-title">Enlucido de paredes automatizado</h1>
+							<p class="main-subtitle">Paredes perfectamente lisas <br> en muy poco tiempo</p>
+							<span class="main-precio">El coste de la obra <br> es desde <strong>10</strong> euros/m
+								<sup>2</sup></span>
+							<p class="main-tigger">Pago una vez finalizado el trabajo!</p>
+						</div>
 					</div>
 
 					<div class="col-xl-4 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
-						<div class="forms">
+						<div class="forms WOW animate__animated animate__backInRight">
 							<form class="form" action="#">
 								<p class="form-title">Para calcular el coste exacto, <br> solicite una <strong>visita de
 										medición</strong></p>
 								<label class="form-label" for="nomber">Su nombre</label>
-								<input class="form-input" id="nomber" type="text">
+								<input class="form-input" id="nomber" type="text" required>
 
-								<label class="form-label" for="tel">Número de teléfono</label>
-								<input class="form-input" id="tel" type="text">
+								<label class="form-label" for="phone">Número de teléfono</label>
+								<input class="form-input" id="phone" type="text" required>
 								<button class="button form-btn" id="solicitud">Dejar una solicitud</button>
 								<p class="main-form-footer">Venimos el día que nos contactes</p>
 							</form>
@@ -76,7 +80,7 @@
 
 			<div class="features-slider">
 
-				<div class="features-block">
+				<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
 					<div class="features-img">
 						<picture>
 
@@ -88,7 +92,7 @@
 						intermedios</p>
 				</div>
 
-				<div class="features-block">
+				<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
 					<div class="features-img">
 						<picture>
 
@@ -101,7 +105,7 @@
 						cumplirán todas las obligaciones</p>
 				</div>
 
-				<div class="features-block">
+				<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
 					<div class="features-img">
 						<picture>
 
@@ -114,7 +118,7 @@
 						a tiempo, pagas menos</p>
 				</div>
 
-				<div class="features-block">
+				<div class="features-block wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
 					<div class="features-img">
 						<picture>
 
@@ -784,6 +788,17 @@
 	<!--Подключаем скрипт слайдера fotorama-->
 	<link href="./src/fotorama/fotorama.css" rel="stylesheet">
 	<script src="./src/fotorama/fotorama.js"></script>
+	<!--Подключаем скрипт WOW js-->
+	<script src="./src/js/wow.min.js"></script>
+	<script src="./src/js/jquery.maskedinput.min.js"></script>
+	<script>
+		jQuery(function ($) {
+			$("#phone").mask("+3 (999) 999-99-99");
+		});
+	</script>
+	<script>
+		new WOW().init();
+	</script>
 	<!--Инициализируем слайдер-->
 	<script>
 		$(document).ready(function () {
@@ -797,8 +812,8 @@
 			});
 
 			$('.feedback-slider').slick({
-				prevArrow: '<button type="button" class="feedback-slider-btn feedback-prev-btn"><img src="./src/img/feedback/prevArrow.svg" id="prev" alt="feedback"></button>',
-				nextArrow: '<button type="button" class="feedback-slider-btn feedback-next-btn"><img src="./src/img/feedback/nextArrow.svg" id="nex" alt="feedback"></button>',
+				prevArrow: '<button type="button" class="feedback-slider-btn feedback-prev-btn"><img src="./src/img/feedback/prevArrow.svg" alt="feedback"></button>',
+				nextArrow: '<button type="button" class="feedback-slider-btn feedback-next-btn"><img src="./src/img/feedback/nextArrow.svg" alt="feedback"></button>',
 			});
 
 			$('.features-slider').slick({
