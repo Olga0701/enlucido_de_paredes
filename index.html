@@ -34,7 +34,7 @@
 					</div>
 
 					<div class="col-xl-3 col-lg-3 col-md-4 text-end">
-						<button class="button header-button popup-btn">Obtener una consulta</button>
+						<button class="button header-button popup-btn" id="consulta">Obtener una consulta</button>
 					</div>
 
 				</div>
@@ -58,7 +58,7 @@
 
 								<label class="form-label" for="tel">Número de teléfono</label>
 								<input class="form-input" id="tel" type="text">
-								<button class="button form-btn">Dejar una solicitud</button>
+								<button class="button form-btn" id="solicitud">Dejar una solicitud</button>
 								<p class="main-form-footer">Venimos el día que nos contactes</p>
 							</form>
 						</div>
@@ -141,7 +141,7 @@
 
 				</div>
 				<div class="col-xl-4 text-end">
-					<button class="button price-button-header" data-toggle="modal">Calcular el coste exacto</button>
+					<button class="button price-button-header" id="exacto" data-toggle="modal">Calcular el coste exacto</button>
 				</div>
 			</div>
 			<div class="row">
@@ -155,7 +155,7 @@
 							<li>Haremos el trabajo</li>
 							<li>Vamos a limpiar</li>
 						</ul>
-						<button class="button price-button">Pedido</button>
+						<button class="button price-button" id="pedido">Pedido</button>
 					</div>
 				</div>
 
@@ -171,7 +171,7 @@
 							<li>Dos años de garantía</li>
 
 						</ul>
-						<button class="button price-button">Pedido</button>
+						<button class="button price-button" id="pedido1">Pedido</button>
 					</div>
 				</div>
 
@@ -187,7 +187,7 @@
 							<li>Dos años de garantía</li>
 							<li>Puedes empapelar de inmediato</li>
 						</ul>
-						<button class="button price-button">Pedido</button>
+						<button class="button price-button" id="pedido2">Pedido</button>
 					</div>
 				</div>
 
@@ -349,7 +349,7 @@
 									<input class="form-input feedback-forms-input" id="tel1" type="text">
 								</div>
 							</div>
-							<button class="button form-btn feedback-forms-btn">Dejar una solicitud</button>
+							<button class="button form-btn feedback-forms-btn" id="solicitud">Dejar una solicitud</button>
 						</form>
 					</div>
 
@@ -639,7 +639,7 @@
 
 								<label class="form-label" for="tel2">Número de teléfono</label>
 								<input class="form-input" id="tel2" type="text">
-								<button class="button form-btn">Dejar una solicitud</button>
+								<button class="button form-btn" id="solicitud2">Dejar una solicitud</button>
 								<p class="main-form-footer">Venimos el día que nos contactes</p>
 							</form>
 						</div>
@@ -660,7 +660,7 @@
 					<div class="price-block upsell-block">
 						<div class="price-img"><img src="./src/img/upsell/1.jpg" alt="Instalación de cableado eléctrico"></div>
 						<h4 class="price-title">Instalación de cableado eléctrico</h4>
-						<button class="button price-button">Precios</button>
+						<button class="button price-button" id="precios">Precios</button>
 					</div>
 				</div>
 
@@ -668,7 +668,7 @@
 					<div class="price-block upsell-block">
 						<div class="price-img"><img src="./src/img/upsell/2.jpg" alt="Solado"></div>
 						<h4 class="price-title">Solado</h4>
-						<button class="button price-button">Precios</button>
+						<button class="button price-button" id="precios1">Precios</button>
 					</div>
 				</div>
 
@@ -676,7 +676,7 @@
 					<div class="price-block upsell-block">
 						<div class="price-img"><img src="./src/img/upsell/3.jpg" alt="Trabajos de fontanería"></div>
 						<h4 class="price-title">Trabajos de fontanería</h4>
-						<button class="button price-button">Precios</button>
+						<button class="button price-button" id="precios2">Precios</button>
 					</div>
 				</div>
 
@@ -693,7 +693,7 @@
 						<div class="contacts-maps">
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194347.4782683708!2d-3.844347150013231!3d40.43809861090755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2z0JzQsNC00YDQuNC0!5e0!3m2!1sru!2ses!4v1713471602532!5m2!1sru!2ses"
-								width="600" height="190" style="border:0;" allowfullscreen="" loading="lazy"
+								width="600" height="190" style="border:0;" alt="mapa" allowfullscreen="" loading="lazy"
 								referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 						<p>Número de teléfono:<br><strong class="contacts-tel">+3 000 000 00 00</strong></p>
@@ -718,7 +718,7 @@
 
 							<label class="form-label" for="mensaje">Mensaje</label>
 							<textarea class="form-input contacts-mensaje" id="mensaje" rows="5"></textarea>
-							<button class="button form-btn">Concertar una cita</button>
+							<button class="button form-btn" id="cita">Concertar una cita</button>
 
 						</form>
 					</div>
@@ -733,7 +733,7 @@
 	<div class="popup">
 		<div class="popup-container">
 			<div class="popup-content">
-				<button class="popup-close">&#x2715;</button>
+				<button class="popup-close" id="icon">&#x2715;</button>
 
 				<div class="forms">
 					<form class="form" action="#">
@@ -746,7 +746,7 @@
 						<input class="form-input" id="tel4" type="text">
 						<label class="form-label" for="mensaje1">Mensaje</label>
 						<textarea class="form-input contacts-mensaje" id="mensaje1" rows="5"></textarea>
-						<button class="button form-btn">Dejar una solicitud</button>
+						<button class="button form-btn" id="solicitud1">Dejar una solicitud</button>
 
 					</form>
 				</div>
@@ -776,8 +776,8 @@
 			});
 
 			$('.feedback-slider').slick({
-				prevArrow: '<button type="button" class="feedback-slider-btn feedback-prev-btn"><img src="./src/img/feedback/prevArrow.svg" alt="feedback"></button>',
-				nextArrow: '<button type="button" class="feedback-slider-btn feedback-next-btn"><img src="./src/img/feedback/nextArrow.svg" alt="feedback"></button>',
+				prevArrow: '<button type="button" id="prev" class="feedback-slider-btn feedback-prev-btn"><img src="./src/img/feedback/prevArrow.svg" alt="feedback"></button>',
+				nextArrow: '<button type="button" id="next" class="feedback-slider-btn feedback-next-btn"><img src="./src/img/feedback/nextArrow.svg" alt="feedback"></button>',
 			});
 
 			$('.features-slider').slick({
@@ -791,8 +791,8 @@
 							slidesToShow: 2,
 							slidesToScroll: 2,
 							infinite: true,
-							prevArrow: '<button class="prev arrow"></button>',
-							nextArrow: '<button class="next arrow"></button>',
+							prevArrow: '<button class="prev arrow" id="prev1"></button>',
+							nextArrow: '<button class="next arrow" id="next1"></button>',
 						}
 					},
 					{
@@ -800,8 +800,8 @@
 						settings: {
 							slidesToShow: 1,
 							slidesToScroll: 1,
-							prevArrow: '<button class="prev arrow"></button>',
-							nextArrow: '<button class="next arrow"></button>',
+							prevArrow: '<button class="prev arrow" id="prev2"></button>',
+							nextArrow: '<button class="next arrow" id="next2"></button>',
 						}
 					},
 
